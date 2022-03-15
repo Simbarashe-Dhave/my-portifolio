@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 768px){
     :root {
-        --big-font-size: 3.5rem;
+        --big-font-size: 2.8rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
     }
@@ -71,7 +71,7 @@ ul{
     padding: 0;
     list-style: none;
 }
-  
+
 a{
     text-decoration: none;
 }
@@ -176,6 +176,9 @@ img{
 
 .nav_logo{
     color: var(--second-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: italic;
 }
 
 .nav_toggle{
@@ -227,7 +230,7 @@ img{
 .home_social-icon{
     width: max-content;
     margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: var(--second-color);
 }
 
@@ -249,6 +252,8 @@ img{
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: .5rem;
+    width: 15rem;
+    text-align: center;
 }
 
 .button:hover{
@@ -263,6 +268,8 @@ img{
 
 .about_subtitle{
     margin-bottom: var(--mb-2);
+    text-align: center;
+    font-size: 2rem;
 }
 
 .about_img{
@@ -272,6 +279,14 @@ img{
 .about_img img{
     width: 200px;
     border-radius: .5rem;
+}
+
+.about_text {
+  text-align: justify;
+  padding: 1rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 /*=== SKILLS ===*/
@@ -323,7 +338,7 @@ img{
 
 .skills_html{
     width: 95%;
-}	
+}
 
 .skills_css{
     width: 85%;
@@ -331,6 +346,14 @@ img{
 
 .skills_js{
     width: 75%;
+}
+
+.skills_py {
+  width: 85%;
+}
+
+.skills_rjs {
+  width: 65%;
 }
 
 .skills_img{
@@ -394,7 +417,7 @@ img{
      text-align: center;
      font-weight: var(--font-semi);
      padding: 2rem 0;
- } 
+ }
 
  .footer_title{
      font-size: 2rem;
@@ -478,7 +501,7 @@ img{
         column-gap: 2rem;
     }
     .contact_form{
-        width: 360px;
+        width: 460px;
     }
     .contact_container{
         justify-items: center;
@@ -492,6 +515,6 @@ img{
     }
     .home_img{
         right: 10%;
-        
+
     }
 }
