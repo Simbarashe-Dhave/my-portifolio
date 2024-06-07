@@ -2,7 +2,7 @@
 
 /*==== CSS VARIABLES ====*/
 :root {
-    --header-height: 3rem;     // nav height
+    --header-height: 3rem;  
     --font-semi: 600;
 }
 
@@ -174,11 +174,8 @@ img{
     background-color: var(--first-color);
 }
 
-.nav_logo{
-    color: var(--second-color);
-    font-weight: bold;
-    font-size: 1.3rem;
-    font-style: italic;
+.nav_logo img {
+    height: 10vh;
 }
 
 .nav_toggle{
